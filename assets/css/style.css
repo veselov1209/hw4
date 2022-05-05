@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+.container{
+    max-width: 1460px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 157px;
+}
+.header__list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-right: 175px;
+}
+.list__link{
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+}
+.list__link-home{
+    color: #FA4A0C;
+}
+.list__item + .list__item{
+    margin-left: 117px;
+}
+.logo__img{
+    margin-left: 90px;
+}
+.restaurant__info{
+    background-image: url(../images/head__background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 80px 0 162px 0;
+    margin-bottom: 56px;
+    min-height: 618px;
+}
+.title1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    margin-bottom: 33px;
+}
+.title2{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    /*padding: 0 350px;*/
+    margin-bottom: 32px;
+}
+.title3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    margin-bottom: 69px;
+}
+.btn__link{
+    font-family: montserrat;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+.btn__orange{
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 30px;
+    border: none;
+    padding: 16px 59px;
+    margin-right: 67px;
+}
+.btn__invisible{
+    background: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    padding: 16px 59px;
+}
+.title4{
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    opacity: 0.8;
+    margin-bottom: 70px;
+}
+.content__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 108px;
+}
+.title5{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+    margin-bottom: 55px;
+}
+.content__top-title{
+    max-width: 568px;
+}
+.title6{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-bottom: 45px;
+}
+.title7{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.content__down{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content__down-title{
+    max-width: 568px;
+}
+.content{
+    margin-bottom: 190px;
+}
+.orders{
+    background-image: url(../images/Rectangle\ 47.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    min-height: 509px;
+    padding: 5px;
+}
+.title8{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-top: 140px;
+    margin-bottom: 17px;
+}
+.title9{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+.btn__orange-down{
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 10px;
+    border: none;
+    padding: 18px 31px;
+    margin-right: 16px;
+}
+.btn__invisible-down{
+    background: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    padding: 16px 45px;
+}
+.footer__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+.title10{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+    margin-right: 116px;
+}
+.footer{
+    padding: 0 0 55px 0;
+}
